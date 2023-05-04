@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ola Bike Ride Request Prediction</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+	<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="img"></div>
+<form class="form">
+	<h2>Season</h2>
+    <input class= "area"  type="text" id="season" class="floatLabel" name="Season" value="0">
+	<h2>Weather</h2>
+    <input class= "area"  type="text" id="weather" class="floatLabel" name="Weather" value="0">
+	<h2>Temperature</h2>
+    <input class= "area"  type="text" id="temp" class="floatLabel" name="temp" value="0">
+	<h2>Humidity</h2>
+    <input class= "area"  type="text" id="humidity" class="floatLabel" name="humidity" value="0">
+	<h2>Windspeed</h2>
+    <input class= "area"  type="text" id="windspeed" class="floatLabel" name="windspeed" value="0">
+	<h2>Casual</h2>
+    <input class= "area"  type="text" id="casual" class="floatLabel" name="Casual" value="0">
+	<h2>Day</h2>
+    <input class= "area"  type="text" id="day" class="floatLabel" name="Day" value="0">
+	<h2>Month</h2>
+    <input class= "area"  type="text" id="month" class="floatLabel" name="Month" value="0">
+	<h2>Year</h2>
+    <input class= "area"  type="text" id="year" class="floatLabel" name="year" value="0">
+	<h2>Weekday</h2>
+    <input class= "area"  type="text" id="weekday" class="floatLabel" name="Weekday" value="0">
+	<h2>am_or_pm</h2>
+    <input class= "area"  type="text" id="am_or_pm" class="floatLabel" name="am_or_pm" value="0">
+	<h2>Holidays</h2>
+    <input class= "area"  type="text" id="holidays" class="floatLabel" name="Holidays" value="0">
+	</form>
+
+		
+	
+	<button class="submit" onclick="onClickedEstimateCount()" type="button">Estimate Count</button>
+	<div id="uiEstimatedCount" class="result">	<h2></h2> </div>
+</body>
+</html>

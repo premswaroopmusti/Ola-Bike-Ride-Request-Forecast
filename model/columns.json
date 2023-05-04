@@ -1,0 +1,1 @@
+{"data_columns": ["season", "weather", "temp", "humidity", "windspeed", "casual", "registered", "time", "day", "month", "weekday", "am_or_pm", "holidays"]}
