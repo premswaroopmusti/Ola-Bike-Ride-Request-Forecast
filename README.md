@@ -12,7 +12,10 @@ This model is based on users' ride request dataset that is proposed to address t
 
 Ride hailing companies (such as Ola) are losing money and market share to their competitors, due to their failure to satisfy the trip demands of many consumers. To solve this issue, a novel model is presented out to predict ride-request for a particular hour using machine learning.
 
-Dataset: The data set used in this study was a ride request dataset. This dataset would have the following attributes: ride booking time, season, and weather, temp, humidity, windspeed, number of non-registered user rentals initiated, number of registered user rentals initiated, number of ride request raised on the app for that hour. Explanation for the column names in the dataset and their values is as follows:
+### Dataset:
+
+The data set used in this study was a ride request dataset. This dataset would have the following attributes: ride booking time, season, and weather, temp, humidity, windspeed, number of non-registered user rentals initiated, number of registered user rentals initiated, number of ride request raised on the app for that hour. Explanation for the column names in the dataset and their values is as follows:
+
 #### season-
  
 1.	spring
@@ -33,23 +36,31 @@ Dataset: The data set used in this study was a ride request dataset. This datase
   
 4.	Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog
 
-casual – number of non-registered user rentals initiated
+#### casual –
 
-registered – number of registered user rentals initiated
+number of non-registered user rentals initiated
 
-count – number of ride request raised on the app for that hour.
+#### registered – 
+
+number of registered user rentals initiated
+
+#### count – 
+
+number of ride request raised on the app for that hour.
 
 ## Data Preparation: 
 
 There are times when multiple features are provided in the same feature or we must derive some features from the existing ones. I will also try to include some extra features in our dataset so, that we can derive some interesting insights from the data we have. Also, if the features derived are meaningful then they become a deciding factor in increasing the model’s accuracy significantly.
 
 ## Exploratory Data Analysis
-	EDA is an approach to analysing the data using visual techniques. It is used to discover trends, 	and patterns, or to check assumptions with the help of statistical summaries and graphical 	representations. 
-	I will add some features to our dataset using some assumptions. And will also check what are 	the relations between different features with the target feature.
+
+EDA is an approach to analysing the data using visual techniques. It is used to discover trends,and patterns,or to check assumptions with the help of statistical summaries and graphical representations. 
+
+I will add some features to our dataset using some assumptions. And will also check what are the relations between different features with the target feature.
 
 ## Model Training
 	
-Will separate the features and target variables and split them into training and the testing data by 	using which I will select the model which is performing best on the validation data.
+Will separate the features and target variables and split them into training and the testing data by using which I will select the model which is performing best on the validation data.
 
 I will split the data into training and validation data also the normalization of the data will be done. I will train some state-of-the-art machine learning models and select the best out of them using the validation dataset.
 
